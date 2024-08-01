@@ -1,0 +1,70 @@
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(48, 47, 47, 0.199),rgba(54, 53, 53, 0.171)), url(img3.jpg);
+    background-position: no-repeat;
+    background-position: center;
+    font-family:  sans-serif;
+    cursor: pointer;
+}
+header{
+    display: flex;
+    padding: 10px 30px;
+    justify-content: space-between;
+    color: white;
+    background-color: rgb(34, 32, 32);
+}
+nav li{
+    display: inline-block;
+    margin: 10px 20px;
+    font-weight: 900;
+    font-size: 20px;
+}
+section{
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 41px;
+
+}
+
+div{
+    text-align: center;
+}
+.Learnmore{
+    padding: 10px 30px;
+    font-size: 25px;
+    border-radius: 7px;
+    border: solid white;
+    background-color: black;
+    color: white;
+    margin: 18px;
+}
+
+.subscribe{
+    font-size: 25px;
+    border-radius: 7px;
+    padding:15px 30px ;
+    background-color: white;
+    color: black;
+    border: solid white;
+    margin-left: 20px;
+
+}
+
+.CodingLab{
+    font-size: 41px;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 600px) and (min-width: 360px)  {
+
+    nav li{
+        display: inline-block;
+        margin: 10px 20px;
+        font-weight: 900;
+        font-size: 20px;
+    }
+
+}
+
